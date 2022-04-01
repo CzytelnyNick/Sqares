@@ -1,0 +1,35 @@
+@keyframes anim{
+    
+    100% {
+         transform: scale(10);
+         
+         
+    }
+}
+@keyframes anim2
+{
+    0%
+    {
+       transform: scale(10)
+    }
+    100%
+    {
+        transform: scale(0)
+    }
+}
+.square
+{
+    animation: anim 0.2s linear forwards;
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    
+    
+    font-size: 2px;
+    border-radius: 10%;
+    color: black;
+    
+}
